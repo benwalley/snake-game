@@ -1,0 +1,21 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	width:80vh;
+	height:80vh;
+	display:block;
+	border:3px solid black;
+	margin-top:10vh;
+	margin-left:30vw;
+}
+
+.square{
+	width:10%;
+	height:10%;
+	background:white;
+	float:left;
+	border-radius:50%;
+}
