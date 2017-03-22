@@ -3,19 +3,13 @@ body{
 	padding:0;
 }
 
-.main{
-	width:80vh;
-	height:80vh;
-	display:block;
-	border:3px solid black;
-	margin-top:10vh;
-	margin-left:30vw;
-}
 
 .square{
-	width:10%;
-	height:10%;
-	background:white;
-	float:left;
+	z-index:1000;
+	width:50px;
+	height:50px;
+	background:grba(0,0,0,0);
+	position:fixed;
 	border-radius:50%;
+
 }
